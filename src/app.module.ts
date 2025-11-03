@@ -6,6 +6,7 @@ import { RegionModule } from './region/region.module';
 import { RolesModule } from './roles/roles.module';
 import { PreferencesModule } from './preferences/preferences.module';
 import { SocialConnectionModule } from './social_connection/social-connection.module';
+import { CommunitiesModule } from './communities/communities.module';
 
 
 @Module({
@@ -19,7 +20,8 @@ import { SocialConnectionModule } from './social_connection/social-connection.mo
     RegionModule,
     RolesModule,
     PreferencesModule,
-    SocialConnectionModule
+    SocialConnectionModule,
+    CommunitiesModule
   ],
 })
 export class AppModule {}
