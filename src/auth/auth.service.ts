@@ -75,6 +75,9 @@ export class AuthService {
         bio: dto.bio,
         gender: dto.gender,
         birth_date: dto.birth_date,
+        region_id: dto.region_id ,
+        role_id: dto.role_id ,
+        preference_id: dto.preference_id 
       })
       .eq('user_id', userId)
       .select()
